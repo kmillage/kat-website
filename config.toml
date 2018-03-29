@@ -48,6 +48,11 @@ publishDir = "public"
     name = "blog"
     url = "/post/"
     weight = 5
+    
+[[menu.main]]
+    name = "about"
+    url = "/about/"
+    weight = 10
 
 ### Other links --------------------------------------------------
 

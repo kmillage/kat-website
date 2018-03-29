@@ -40,6 +40,11 @@ publishDir = "public"
     weight = 1
     
 [[menu.main]]
+    name = "cv"
+    url = "/cv/"
+    weight = 3
+    
+[[menu.main]]
     name = "blog"
     url = "/post/"
     weight = 5

@@ -1,17 +1,22 @@
+
+### General --------------------------------------------------
+
 baseURL = "/"
 languageCode = "en-us"
-title = "Initio - Free, multipurpose html5 template by GetTemplate"
+title = "Kat Millage"
 theme = "hugo-initio"
 themeDir = "themes/hugo-initio"
 publishDir = "public"
 
+### Site params --------------------------------------------------
+
 [params]
-    name = "Anthony Russel"
-    description = "A mystery person"
-    email = "anthony.russel42@example.com"
-    phone = "+234 23 9873237"
-    address = "234 Hidden Pond Road, Ashland City, TN 37015"
-    year = 2017
+    name = "Kat Millage"
+    description = "Project Researcher"
+    email = "kmillage@ucsb.edu"
+    phone = ""
+    address = "1304 MSRB, University of California Santa Barbara, Santa Barbara, CA 93111"
+    year = 2018
     background = ""
     favicon = "images/gt_favicon.png"
     DateForm = "January 2, 2006"
@@ -20,24 +25,29 @@ publishDir = "public"
     showServices = true
     showRecentWorks = true
     showDownload = true
-    showClients = true
+    showClients = false
 
     footerEnableContact = true
     footerEnableFollowme = true
-    footerEnableTextWidget = true
-    footerEnableFormWidget = true
+    footerEnableTextWidget = false
+    footerEnableFormWidget = false
+
+### Main menu --------------------------------------------------
 
 [[menu.main]]
     name = "home"
     url = "/"
     weight = 1
+    
 [[menu.main]]
     name = "blog"
     url = "/post/"
     weight = 5
 
+### Other links --------------------------------------------------
+
 [params.disqus]
-    site = "hugo-initio-site.disqus.com"
+    site = ""
 
 [params.sharethis]
     property = "123456789012345678901234"
@@ -46,13 +56,16 @@ publishDir = "public"
 [params.google.analytics]
     trackerID = "GA-000000000-0"
 
+### Social media links --------------------------------------------------
+
 [[params.social]]
-	title = "facebook"
-	url = "https://www.facebook.com/nickname"
-    icon = "fa-facebook-square"
+	title = "github"
+	url = "https://github.com/kmillage"
+    icon = "fa-github"
     footer = true
     sharethis = true
-    network = "facebook"
+    network = ""
+    
 [[params.social]]
 	title = "twitter"
 	url = "https://twitter.com/nickname"
@@ -60,6 +73,7 @@ publishDir = "public"
     footer = true
     sharethis = true
     network = "twitter"
+    
 [[params.social]]
 	title = "instagram"
 	url = "https://www.instagram.com/nickname"
@@ -67,6 +81,7 @@ publishDir = "public"
     footer = true
     sharethis = false
     network = ""
+    
 [[params.social]]
 	title = "google+"
 	url = "https://plus.google.com/+nickname"
@@ -88,13 +103,7 @@ publishDir = "public"
     footer = false
     sharethis = false
     network = "tumblr"
-[[params.social]]
-	title = "github"
-	url = "https://github.com/nickname"
-    icon = "fa-github"
-    footer = true
-    sharethis = false
-    network = ""
+
 [[params.social]]
 	title = "email"
 	url = "mailto:some.email@somewhere.com"

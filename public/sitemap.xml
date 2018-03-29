@@ -3,10 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/cv/</loc>
-  </url>
-  
-  <url>
     <loc>/post/vivamus-lacus-mauris/</loc>
     <lastmod>2013-06-17T12:00:00+00:00</lastmod>
   </url>
@@ -17,6 +13,10 @@
   
   <url>
     <loc>/service/service3/</loc>
+  </url>
+  
+  <url>
+    <loc>/cv/</loc>
   </url>
   
   <url>

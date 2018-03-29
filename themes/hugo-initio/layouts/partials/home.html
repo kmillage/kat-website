@@ -14,10 +14,6 @@
             {{ partial "services.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.showDownload }}
-            {{ partial "download.html" . }}
-        {{ end }}
-
         {{ if .Site.Params.showClients }}
             {{ partial "clients.html" . }}
         {{ end }}

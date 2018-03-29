@@ -11,10 +11,10 @@ body {
 .topspace {
   margin-top: 40px;
 }
-img.img-circle {
+.img-circle {
   display: block;
-  width: 140px;
-  height: 140px;
+  width: 280px;
+  height: 280px;
   overflow: hidden;
   border: 9px solid rgba(0, 0, 0, 0.05);
   margin: 0 auto;
